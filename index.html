@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Digital Precision</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .navbar
+            {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+            }
+            .headshot
+            {
+                height: 50px;
+                border-radius: 50%;
+            }
+
+            .headshot-lg
+            {
+                height: 150px;
+                border-radius: 10%;
+                margin-right: 20px;
+                float: left;
+            }
+
+            .fp-carousel
+            {
+                margin: auto;
+                max-width: 640px;
+                max-height: 848px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#top"><span style="font-weight: 500;">Digital </span><span style="color: var(--bs-blue); font-weight: 200;">Precision</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#top">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#photos">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Sharper. Brighter. Better.</h1>
+                            <p class="lead text-white-50 mb-4">Bring your property to life with Digital Precision.</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#contact">Schedule our Services</a>
+                                <!-- <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-camera"></i></div>
+                        <h2 class="h4 fw-bolder">Photography</h2>
+                        <p>We understand the importance of visually appealing images to attract potential buyers and highlight the unique features of each property in order to help you sell and rent properties quickly and efficiently. With our expertise in photography, we ensure that every picture accurately represents the property’s features, from its architecture and design to its surrounding landscape. Our commitment to quality and attention to detail sets us apart, providing stunning visuals to Realtors, builders, renovators, Airbnb owners, or anyone else who needs to showcase the beauty of their property.</p>
+                        <a class="text-decoration-none" href="#photos">
+                            View Samples
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-rulers"></i></div>
+                        <h2 class="h4 fw-bolder">Floor Plans</h2>
+                        <p>Our highly informative floor plans provide home buyers with a visual representation of the layout of a property. These detailed plans are designed to showcase all the important features of a home, including room dimensions, architectural features, and key amenities. By providing a clear and accurate view of the property, our floor plans help buyers make informed decisions about their potential investment, saving time, money, and effort in the process.</p>
+                        <a class="text-decoration-none" href="#floor-plans">
+                            View Samples
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-camera-video"></i></div>
+                        <h2 class="h4 fw-bolder">Virtual Tours</h2>
+                        <p>Our virtual tours are designed to transport prospective buyers into the immersive experience of a home before they even enter it physically. By providing an interactive and authentic viewing, we aim to help buyers develop an emotional connection with a property and envision themselves living in it. Our virtual tours also come with our marketing package, which includes support for both digital and physical marketing products, along with assistance in managing various social media platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photos section -->
+        <section class="py-5 border-bottom" id="photos">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Evocative Photography</h2>
+                    <h3 class="mt-3 mb-5" style="font-weight: 400; font-size: large">Help your clients fall in love before even stepping through the door.</h3>
+                </div>
+                <div id="photos-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                        <button type="button" data-bs-target="#photos-carousel" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./Assets/Sample Pictures/landscape-1.jpg" class="d-block w-100" alt="landscape">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/exterior-1.jpg" class="d-block w-100" alt="exterior view">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/living-room-1.jpg" class="d-block w-100" alt="living room">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/window-view-1.jpg" class="d-block w-100" alt="window view">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/living-room-2.jpg" class="d-block w-100" alt="living room">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/mountain-view-1.jpg" class="d-block w-100" alt="mountain view">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/deck-1.jpg" class="d-block w-100" alt="deck">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/window-view-2.jpg" class="d-block w-100" alt="window view">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/exterior-2.jpg" class="d-block w-100" alt="exterior view">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/kitchen-1.jpg" class="d-block w-100" alt="kitchen">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/kitchen-2.jpg" class="d-block w-100" alt="kitchen">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/theater-1.jpg" class="d-block w-100" alt="theater">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/kitchen-3.jpg" class="d-block w-100" alt="kitchen">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/bathroom-1.jpg" class="d-block w-100" alt="bathroom">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/foyer-1.jpg" class="d-block w-100" alt="foyer">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/nook-1.jpg" class="d-block w-100" alt="nook">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Pictures/living-room-3.jpg" class="d-block w-100" alt="living room">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#photos-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#photos-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Floor plan section -->
+        <section class="py-5 border-bottom" id="floor-plans">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Informative Floor Plans</h2>
+                    <h3 class="mt-3 mb-5" style="font-weight: 400; font-size: large">Give your clients a more complete understanding of the space.</h3>
+                </div>
+                <div id="fp-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#fp-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#fp-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#fp-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#fp-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner fp-carousel">
+                        <div class="carousel-item active">
+                            <img src="./Assets/Sample Floor Plans/floor-plan-1.jpg" class="d-block w-100" alt="floor plan">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Floor Plans/floor-plan-2.jpg" class="d-block w-100" alt="floor plan">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Floor Plans/floor-plan-3.jpg" class="d-block w-100 " alt="floor plan">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Assets/Sample Floor Plans/floor-plan-4.jpg" class="d-block w-100" alt="floor plan">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#fp-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#fp-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section-->
+        <section class="py-5 border-bottom" id="testimonials">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-hand-thumbs-up"></i></div>
+                    <h2 class="fw-bolder">Client Testimonials</h2>
+                    <h3 class="mt-3 mb-5" style="font-weight: 400; font-size: large">See what our clients have to say!</h3>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- Henry Scholz -->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <img src="./Assets/Headshots/henry-scholz.jpg" alt="henry scholz" class="headshot">
+                                    <div class="ms-4">
+                                        <p class="mb-1">"Digital Precision is a trusted partner and plays an integral part in executing our marketing strategy for our clients."</p>
+                                        <div class="small text-muted">- Henry Scholz, MKB, Realtors</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- John Glasgow -->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <img src="./Assets/Headshots/john-glasgow.jpg" alt="john glasgow" class="headshot">
+                                    <div class="ms-4">
+                                        <p class="mb-1">"I've been in real estate for 45 years. I've used Digital Precision for a long time and they're the best! They are professional, on time, and they return phone calls. Their photos, layouts, services offered, and attention to detail are great!"</p>
+                                        <div class="small text-muted">- John Glasgow, Wainwright & Co., Realtors</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Kris Layell -->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <img src="./Assets/Headshots/kris-layell.jpg" alt="kris layell" class="headshot">
+                                    <div class="ms-4">
+                                        <p class="mb-1">"I had the pleasure of collaborating with Digital Precision. They impressed me with their punctuality, cost-efficiency, and skillful property capture. Their dedication and attention to detail were evident in the final photographs, and I recommend their professional services to anyone seeking a talented real estate photography company."</p>
+                                        <div class="small text-muted">- Kris Layell, Berkshire Hathaway Homeservices Premier, Realtors</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Alison O'Brien -->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <img src="./Assets/Headshots/alison-obrien.jpg" alt="alison o'brien" class="headshot">
+                                    <div class="ms-4">
+                                        <p class="mb-1">"Digital Precision provides quality photos, floor plans, full marketing kits, and picture touch-ups at a very reasonable price! It's a rare occasion where I need to reach out afterward to have a room re-named or something small and they are quick to reply and assist with whatever is needed. I highly recommend Digital Precision for real estate photography in the Roanoke Valley."</p>
+                                        <div class="small text-muted">- Alison O'Brien, MKB, Realtors</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order section -->
+        <!-- <section class="py-5 border-bottom" id="order">
+            <div class="container px-5 my-5">
+            </div>
+        </section> -->
+
+        <!-- Contact section -->
+        <section class="py-5 border-bottom" id="contact">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <h2 class="fw-bolder">Contact Us</h2>
+                    <h3 class="mt-3 mb-5" style="font-style: italic; font-weight: 400; font-size: large">Contact form coming soon!</h3>
+                    <p>Text or call: 540-355-0805</p>
+                    <!-- <p>E-mail: josh@digitalprecisionphotography.com</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="py-5 border-bottom" id="faq">
+            <div class="accordion container px-5 my-5" id="accordionPanelsStayOpenExample">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-question-circle"></i></div>
+                    <h2 class="fw-bolder">Frequently Asked Questions</h2>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                        What is the cost of a photo shoot?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            The cost of our services varies depending on the size of the property and the services requested. <a href="#contact">Contact us now</a> for a personalized quote.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        How long after a photo shoot should I expect to receive the finished product?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <p>We aim to have the finished product ready by the morning of the second business day after the photo shoot.*</p>
+                        <p>For example:</p>
+                        <ul>
+                            <li>Shoot Wednesday morning, finished product delivered Friday morning.</li>
+                            <li>Shoot Thursday afternoon, finished product delivered Monday morning.</li>
+                        </ul>
+                        <p>* Delivery times may vary depending on the scope of the project, weather, services requested, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        What is included with the virtual tour package?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>The virtual tour and marketing kit are both included. The virtual tour comes with both a branded version for your personal marketing as well as an unbranded version for the MLS.</p>
+                            <p>The marketing kit includes marketing materials designed for both digital and physical distribution. Most of the materials are ready to use as soon as your tour package is delivered, but can also be customized to match your own personal style.</p>
+                            <p>Digital materials include:</p>
+                            <ul>
+                                <li>Dozens of social media tiles, optimized for Facebook, Instagram, TikTok, Pinterest, and more</li>
+                                <li>Teaser videos</li>
+                                <li>Branded and unbranded videos, ready to upload to your YouTube channel</li>
+                            </ul>
+                            <p>Print-ready materials include:</p>
+                            <ul>
+                                <li>Listing flier</li>
+                                <li>Print quality photos and floor plans</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        Do you offer aerial photography?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        We plan to have our drones back in the air soon!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                        Do you offer 3D tours, like Matterport?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        We do not currently offer 3D tours or "dollhouse" style floor plans. However, if you are interested, let us know and we will consider adding it to our list of services!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                        What does my property need in order to be "photo ready"?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <p>The property should be thoroughly cleaned before our photographer arrives. The property should be decorated and staged to your liking. Any evidence of pets (beds, food/water bowls, toys, treats, etc) should be put away. Vehicles should be parked on the street so they are out of the way for exterior photos. All overhead lights, lamps, accent lights, and under-cabinet lights should be turned on.</p>
+                        <!-- TO DO:
+                        <p>For a more comprehensive checklist, see our <a href="#resources">resources</a> section to download a printable PDF checklist.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                        How do I pay my invoice?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        Your invoice will be emailed to you upon delivery of the finished product. We currently accept online payments via ACH bank transfers, as well as checks and cash.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="py-5 border-bottom" id="about">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person-circle"></i></div>
+                    <h2 class="fw-bolder">About Us</h2>
+                </div>
+                <div class="row gx-5">
+                    <div class="float">
+                        <img src="./Assets/Headshots/josh-gruber.jpg" alt="josh gruber" class="headshot-lg">
+                        <p>Digital Precision Photography was founded in 2013 by Josh Gruber (pictured). Shortly after becoming a Realtor in 2012, Josh realized he could combine his passion for photography with his new career as a Realtor by taking his own listing photos. He set out on his new journey by treating himself to some specialized photography equipment that was perfectly suited for the job at hand. He brushed up on his photo editing skills, practiced his technique, and spent his evenings learning all he could about exposure, white balance, lighting, composition, and all the other elements necessary to create high-quality photographs.</p>
+                        <p>As he found himself more and more immersed in the world of photography, the quality of his work improved and caught the attention of his colleagues. They began asking him who he hired to take his listing photos. He explained that he took them himself, and his colleagues asked if he would be willing to take listing photos for them. Josh jumped at the opportunity and began to market his services to other Realtors.</p>
+                        <p>Word of mouth spread quickly, and soon Josh found himself too busy to adequately service his real estate clients and his photography clients, so he had to make a choice. He decided to let his real estate license expire at the end of 2015, and headed into 2016 solely focused on Digital Precision. Since January 2016, Digital Precision has been his primary pursuit and passion. He has grown the company from its first client in 2013 to now serving hundreds of Realtors, renovators, property managers, investors, builders, and individual homeowners.</p>
+                        <p>Over the years Digital Precision has grown from offering only photos to offering floor plans, virtual tours, aerial photography, email blasts, physical and digital marketing materials, social media marketing, videos, and more. We look forward to many more years of serving our community!</p>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources section -->
+        <!-- <section class="py-5 border-bottom" id="resources">
+        </section> -->
+
+        <!-- Contact section 2 -->
+        <!-- <section class="bg-light py-5">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <h2 class="fw-bolder">Get in touch</h2>
+                    <p class="lead mb-0">We'd love to hear from you</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <!- - * * * * * * * * * * * * * * *- ->
+                        <!- - * * SB Forms Contact Form * *- ->
+                        <!- - * * * * * * * * * * * * * * *- ->
+                        <!- - This form is pre-integrated with SB Forms.- ->
+                        <!- - To make this form functional, sign up at- ->
+                        <!- - https://startbootstrap.com/solution/contact-forms- ->
+                        <!- - to get an API token!- ->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!- - Name input- ->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!- - Email address input- ->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!- - Phone number input- ->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!- - Message input- ->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!- - Submit success message- ->
+                            <!- -- ->
+                            <!- - This is what your users will see when the form- ->
+                            <!- - has successfully submitted- ->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!- - Submit error message- ->
+                            <!- -- ->
+                            <!- - This is what your users will see when there is- ->
+                            <!- - an error submitting the form- ->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!- - Submit Button- ->
+                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; 2023 Digital Precision Photography. All rights reserved.</p></div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Core theme JS-->
+        <!-- <script src="js/scripts.js"></script> -->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+    </body>
+</html>
